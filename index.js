@@ -1,5 +1,5 @@
 navigator.mediaDevices
-  .getUserMedia({ video: true, audio: true })
+  .getUserMedia({ video: true })
   .then((localMediaStream) => {
     const video = document.querySelector("video");
     video.srcObject = localMediaStream;
