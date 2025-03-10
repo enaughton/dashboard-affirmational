@@ -1,32 +1,67 @@
 <head>
-  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="stylesheet" type="text/css" href="./index.css" />
   <script src="./index.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-CXJ96MJRYL"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-CXJ96MJRYL");
+  </script>
 </head>
-</head>
-<h1>DashBoard Affirmational</h1>
-<div class="dashboard">
-  <div class="card">
-    <video autoplay muted  playsinline width="100%"></video>
-    <div class="container">
-      <h4><b>Are you proud of the person shown here?</b></h4>
-      <button onclick="onYes()">yes</button>
-      <button onclick="onNo()">no</button>
-    </div>
-  </div>
-  <div class="views">
+<body>
+  <h1>Dashboard Affirmational</h1>
+  <div class="dashboard">
     <div class="card">
-      <h2><b>Views</b></h2>
+      <video autoplay muted playsinline width="100%"></video>
       <div class="container">
-        <span>10,000 </span>
-        <p>You crushed this</p>
+        <h4><b>Are you proud of the person shown here?</b></h4>
+        <button onclick="onYes()">yes</button>
+        <button onclick="onNo()">no</button>
       </div>
     </div>
-    <div class="card">
-      <h2><b>Likes</b></h2>
-      <div class="container">
-        <span>SOOO Many </span>
-        <p>Keep going</p>
+    <div class="stats">
+      <div class="card">
+        <h2><b>Views</b></h2>
+        <div class="container">
+          <span>10,000 </span>
+          <p>Keep Going!</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2><b>Likes</b></h2>
+        <div class="container">
+          <span>SOOO Many </span>
+          <p>You are doing great</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2><b>Friends</b></h2>
+        <div class="container">
+          <span>They Love you. </span>
+          <p>You should call them</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2><b>Show up Tomorrow</b></h2>
+        <div class="container">
+          <span>It'll be Ok </span>
+          <p>You aren't alone in this</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  <footer class="footer">
+    <p>
+      © 2025 DashBoard Affirmational Created by
+      <a href="https://emmettnaughton.com">Emmett Naughton</a>
+    </p>
+  </footer>
+</body>

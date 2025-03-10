@@ -7,6 +7,13 @@
     display: flex;
     gap: 1rem;
   }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    
+  }
   /* On mouse-over, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -42,4 +49,21 @@
     display: flex;
     flex-direction: column;
   }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+
+  <style>
+    @media (max-width: 768px) {
+      /* Styles for mobile devices */
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
 </style>
